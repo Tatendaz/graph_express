@@ -14,7 +14,7 @@
 - Confirmed keys: npm `min-release-age` (npm 11.20.0 `@npmcli/config` definitions; `npm config get min-release-age` prints 7 here), Dependabot `cooldown.default-days` and `monthly` (GitHub docs), zizmor-action v0.7.1 inputs.
 - Local `zizmor`: 0 findings. `actionlint`: clean.
 
-- Replaced merge-when-clean with template v3 (sha256 b175f011…) and deleted `dependabot-auto-merge.yml`.
+- Replaced merge-when-clean with template v4 (sha256 f0c005a3…) and deleted `dependabot-auto-merge.yml`.
 
 ## Decisions
 - Branched from `master` while PR #18 is open, and copied its `dependency-review.yml` pin verbatim instead of stacking on it.
